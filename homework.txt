@@ -1,0 +1,49 @@
+1-
+var n = 5;
+var par = "Rawan";
+var loc = "Jubail";
+var job = "Eng";
+
+console.log("You will be a "+ job + 
+" in "+ loc+ ", and married to "+ par+ " with "+ n+ "kids.");
+
+2-
+
+var current = 2019;
+var birth = 1994;
+
+var age = current - birth;
+console.log("The age is "+ age+" years old");
+
+3-
+
+var curAge = 25;
+var maxAge = 60;
+var amoDay = 7;
+var totalEat = (maxAge - curAge)* 365 * amoDay;
+
+console.log("You will need "+ totalEat + " to last you until the ripe old age of " + maxAge+" 
+it will be in"+ (2019 + (maxAge - curAge)));
+
+4-
+
+
+var radius = 8;
+
+var circumference = 2*(3.41)*radius;
+
+console.log("The area is " + circumference);
+
+5-
+
+(a)
+
+var c = 25;
+var f=  c * 9 / 5 + 32;
+ console.log(" The degree in F = "+f);
+
+ (b)
+
+ var f = 77;
+var c=  (f-32) * 5 / 9;
+ console.log(" The degree in C = "+c);
